@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/fraunces";
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces Variable", ui-serif, Georgia, serif;
+
+  --color-espresso: #1f140f;
+  --color-roast: #3b2418;
+  --color-caramel: #c8843f;
+  --color-crema: #e9c99a;
+  --color-cream: #f7efe4;
+}
+
+body {
+  @apply bg-cream font-sans text-espresso antialiased;
+}
